@@ -1,7 +1,9 @@
 .card{
     height: 300px;
     width: 220px ;
-    background-color: aquamarine;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -13,5 +15,4 @@
 .para{
     padding: 10px;
     text-align: left;
-    background-color: aqua;
 }
