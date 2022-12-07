@@ -1,0 +1,17 @@
+.card{
+    height: 300px;
+    width: 220px ;
+    background-color: aquamarine;
+
+}
+
+.cardTitle{
+    text-align: center;
+
+}
+
+.para{
+    padding: 10px;
+    text-align: left;
+    background-color: aqua;
+}
