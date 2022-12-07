@@ -1,18 +1,5 @@
-.card{
-    height: 300px;
-    width: 220px ;
-    border: 2px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.cardTitle{
-    text-align: center;
-
-}
-
-.para{
-    padding: 10px;
-    text-align: left;
+.cardList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
