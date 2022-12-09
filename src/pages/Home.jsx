@@ -5,34 +5,35 @@ import './Home.css';
 
 function Home() {
     return (
-         <div>
+        <div>
+
             {/*<div className="cardList">*/}
-        {/*         <Card title="Indudini"*/}
-        {/*               para="This is para 1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Madhusha"*/}
-        {/*               para="This is para 2.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Indu"*/}
-        {/*               para="This is para 3 .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Madhus"*/}
-        {/*               para="This is para 4.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Indudini"*/}
-        {/*               para="This is para 5.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Madhusha"*/}
-        {/*               para="This is para 6.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Indu"*/}
-        {/*               para="This is para 7 .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*         <Card title="Madhus"*/}
-        {/*               para="This is para 8.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
-        {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
-        {/*    </div>*/}
-        {/*     <button className="btn btn-outline-primary">Submit</button>*/}
+            {/*         <Card title="Indudini"*/}
+            {/*               para="This is para 1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Madhusha"*/}
+            {/*               para="This is para 2.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Indu"*/}
+            {/*               para="This is para 3 .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Madhus"*/}
+            {/*               para="This is para 4.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Indudini"*/}
+            {/*               para="This is para 5.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Madhusha"*/}
+            {/*               para="This is para 6.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Indu"*/}
+            {/*               para="This is para 7 .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*         <Card title="Madhus"*/}
+            {/*               para="This is para 8.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam error facilis*/}
+            {/*           molestiae natus nulla quas quos. Adipisci amet animi consequuntur enim eos excepturi facere facilis!"/>*/}
+            {/*    </div>*/}
+            {/*     <button className="btn btn-outline-primary">Submit</button>*/}
 
 
             {/*<div className="row">*/}
@@ -68,7 +69,8 @@ function Home() {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email</label>
-                                <input type="email" name="email" className="form-control" id="email" aria-describedby="emailHelp"/>
+                                <input type="email" name="email" className="form-control" id="email"
+                                       aria-describedby="emailHelp"/>
                                 {/*<div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>*/}
                             </div>
                             <div className="mb-3">
@@ -85,6 +87,15 @@ function Home() {
 
                         </form>
                     </div>
+                </div>
+
+                <div className="row d-flex justify-content-end">
+                    <div className="col-5">
+                        <input type="text" name="search" className="col-2 form-control" id="searchId"
+                               placeholder="Search ID"/>
+                    </div>
+
+                    <button type="submit" className="btn btn-warning col-2">Search</button>
                 </div>
 
                 <div className="tableMainDiv">
