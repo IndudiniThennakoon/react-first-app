@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Home.css';
+import axios from "axios";
 
 // import Card from "../Card/Card";
 
 function Home() {
+
+    useEffect(() => {
+        getAllCustomer();
+    }, []);
+
+    function getAllCustomer(){
+        
+    }
+
     return (
         <div>
 
