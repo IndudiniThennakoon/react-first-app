@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import './Home.css';
 import axios from "axios";
 
@@ -6,13 +6,21 @@ import axios from "axios";
 
 function Home() {
 
+    const [customerDetails,setCustomerDetails]= useState([]);
+
     useEffect(() => {
         getAllCustomer();
     }, []);
 
     function getAllCustomer(){
-        
+        axios.get("http://localhost:3000/api/getAll").then((res)=>{
+            // console.log(res.data);
+             setCustomerDetails(res.data);
+        });
+        console.log(customerDetails);
     }
+
+
 
     return (
         <div>
